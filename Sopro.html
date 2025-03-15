@@ -1,0 +1,462 @@
+<!doctype html>
+<HTML>
+<HEAD>
+    <meta charset="UTF-8" />
+    <TITLE>Sopro</TITLE>
+
+    <script type="text/Javascript">
+    alert("Clique em cima de cada item para realizar sua compra 🚚");
+
+        function elemento(){
+    var no= document.getElementById("texto");
+    no.style.color='white'; //alterando a cor do título
+                           }
+            function elemento2(){
+    var no= document.getElementById("texto");
+    no.style.color='black'; //voltar a cor anterior do título
+                           }
+
+        function Pagina(){
+    var no= document.getElementById("site");
+    no.style.backgroundColor ='black'; //alterando a cor o fundo da página
+                        }
+                        function Pagina2(){
+    var no= document.getElementById("site");
+    no.style.backgroundColor ='white'; //voltar a cor do fundo da página
+                        }
+                        
+                        function Fonte1(){
+    var elementoContainer= document.getElementById("site");
+    elementoContainer.style.fontFamily= "Times New Roman, serif"; //alterando a cor do título
+                           }
+    
+                           function mudarFonte2(){
+    var elementoTexto= document.getElementById("site");
+    elementoTexto.style.fontFamily= "Arial, sans-serif"; //alterando a cor do título
+                           }
+    
+                           function Fonte3(){
+    var elementoTexto= document.getElementById("site");
+    elementoTexto.style.fontFamily= "Lucida Calligraphy, sans-serif"; 
+                           }
+
+                           function negrito() {
+    var elementoTexto= document.getElementById("site");
+    var textoNormal= window.getComputedStyle(elementoTexto);
+    var fontWeight= textoNormal.getPropertyValue("font-weight");
+
+    elementoTexto.style.fontWeight= fontWeight === "bold" ? "normal" : "bold";           
+                          }
+
+     function normal() {
+    var elementoTexto= document.getElementById("site");
+    var textoNormal= window.getComputedStyle(elementoTexto);
+    var fontWeight= textoNormal.getPropertyValue("font-weight"); 
+
+    elementoTexto.style.fontWeight= "normal";
+                          }
+
+     function italico() {
+    var elementoTexto = document.getElementById("site");
+    var textoNormal = window.getComputedStyle(elementoTexto);
+    var fontWeight = textoNormal.getPropertyValue("font-weight"); 
+
+    elementoTexto.style.fontStyle = "italic";
+                          }
+
+                          function Plain() {
+    var elementoTexto = document.getElementById("site");
+    var textoNormal = window.getComputedStyle(elementoTexto);
+    var fontWeight = textoNormal.getPropertyValue("font-weight"); 
+
+    elementoTexto.style.fontStyle = "normal";
+                          }
+
+        </script>
+    </HEAD>
+    
+    <BODY id='site'>
+        
+        <table width="80%" align="center" border="0" bordercolor="" bgcolor="white" cellspacing="0" cellspadding="0">
+            <tr bgcolor="white">
+    
+                <td align="center">
+                    <input type="button" value="Texto Branco" onclick="elemento ();">
+                    <br><br>
+                    <input type="button" value="Texto Preto" onclick="elemento2 ();">
+                </td>
+    
+                <td align="center">
+                    <input type="button" value="Modo Escuro" onclick="Pagina ();">
+                    <br><br>
+                    <input type="button" value="Modo Claro" onclick="Pagina2 ();">
+                </td>
+    
+                <td align="center">
+                    <input type="button" value="Fonte Times New Roman" onclick="Fonte1 ();">
+                    <br><br>
+                    <input type="button" value="Fonte Arial" onclick="mudarFonte2 ();">  
+                    <br><br>
+                    <input type="button" value="Fonte Lucida Calligraphy" onclick="Fonte3 ();"> 
+                </td>
+
+                <td align="center">
+                    <input type="button" value="Estilo Negrito" onclick="negrito ();">
+                    <br><br>
+                    <input type="button" value="Texto Normal" onclick="normal ();">
+                    <br><br>
+                    <input type="button" value="Estilo Itálico" onclick="italico();">
+                    <br><br>
+                    <input type="button" value="Tirar Itálico" onclick="Plain();">
+                </td>
+            </tr>
+        </table>
+    <CENTER>
+
+        <IMG SRC="logo.png" ALIGN="CENTER" alt="Image" HEIGHT="200" WIDTH="200" hspace="20">
+        <IMG SRC="barra.png" ALIGN="RIGHT" alt="Image" HEIGHT="80" WIDTH="80" hspace="20">
+        <IMG SRC="barra.png" ALIGN="LEFT" alt="Image" HEIGHT="80" WIDTH="80" hspace="20">
+
+    </CENTER>
+
+    <HR align="LEFT" width="100%" size="5" color="grey" noshade </HR>
+    <HR align="RIGHT" width="100%" size="5" color="grey" noshade </HR>
+    <HR align="CENTER" width="100%" size="5" color="grey" noshade </HR>
+    <HR align="CENTER" width="100%" size="5" color="grey" noshade </HR>
+    <HR align="CENTER" width="100%" size="5" color="grey" noshade </HR>
+    <HR align="CENTER" width="100%" size="5" color="grey" noshade </HR>
+
+    <center>
+        <IMG SRC="Instrumentos de Sopro.gif" ALIGN="LEFT" alt="Image" HEIGHT="850" WIDTH="1850" hspace="20">
+    </center>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <center id='texto'>
+        <table>
+            <thead>
+                <tr>
+                    <font size="5" color="red" font="Varela Round">
+                        <p>
+                       Saxofones
+                        </p>
+                    </font>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="sopro1.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="sopro2.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="sopro3.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="sopro4.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="sopro5.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+
+                    <td>
+                        Saxofone Alto Michael <br>WASM30N Essence<br> 38 cordas <br>
+                            <font size="6" color="red">R$ 4.260,32
+                       
+                        </font>
+                    </td>
+                    <td>
+                        LOUJIN Mi bemol <br>saxofone alto estilo <br>vintage<br>
+                            <font size="6" color="red">R$ 2.399,08
+                     
+                        </font>
+                    </td>
+                    <td>
+                        Saxofone Alto Mib Branco<br> Com Dourado Halk Completo<br>
+                            <font size="6" color="red">R$ 3.198
+                     
+                        </font>
+                    </td>
+                    <td>
+                       Saxofone Alto Mib Azul <br>Com Douradas Halk <br>Completo<br>
+                            <font size="6" color="red">R$ 2.998
+                    
+                        </font>
+                    </td>
+                    <td>
+                       Saxofone Tenor Sib Preto <br>Com Chaves Douradas halk <br>
+                            <font size="6" color="red">R$ 3.998,00
+                      
+                        </font>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    <br>
+    <br>
+    <br>
+    <br>
+
+        <table>
+            <thead>
+
+                <tr>
+
+                    <font size="5" color="red" font="Varela Round">
+                        <p>
+                        Clarinetes
+                        </p>
+                    </font>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="sopro6.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="sopro7.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="sopro8.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="sopro9.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="sopro10.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+
+                    <td>
+                        Clarinete Harmonics<br> HCL-520 BB 17 Chaves <br>
+                            <font size="6" color="red">R$ 1.499,90
+                      
+                        </font>
+                    </td>
+                    <td>
+                     Clarinete Eagle 17 Chaves<br> Sib Cl04n<br>
+                            <font size="6" color="red">R$ 1.348,57
+                    
+                        </font>
+                    </td>
+                    <td>
+                     Clarinete 17 Chaves <br>Com Estojo Slade <br>Ammoon Ccb<br>
+                            <font size="6" color="red">R$ 750,90
+                      
+                        </font>
+                    </td>
+                    <td>
+                      Clarinete Custom Luxo <br>17 Chaves Si Bemol<br>
+                            <font size="6" color="red">R$ 878,84
+                   
+                        </font>
+                    </td>
+                    <td>
+                       Conjunto de Calrinetes <br>Profissionais + Kit de Reparos <br>
+                            <font size="6" color="red">R$ 4.999,00
+                       
+                        </font>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+ 
+    <br>
+    <br>
+    <br>
+    <br>
+
+        <table>
+            <thead>
+
+                <tr>
+
+                    <font size="5" color="red" font="Varela Round">
+                        <p>
+                     Trompetes
+                        </p>
+                    </font>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="sopro11.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="sopro12.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="sopro13.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="sopro14.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="sopro15.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        Trompete Eagle TR504 <br>
+                            <font size="6" color="red">R$ 1.943,10
+                      
+                        </font>
+                    </td>
+                    <td>
+                      Trompete BB Laqueado<br> HTR-300L Harmonics<br>
+                            <font size="6" color="red">R$ 1.124,31
+                     
+                        </font>
+                    </td>
+                    <td>
+                        Trompete Laqueado Afinação <br>Bb Si Bemol Com Case - Ccb<br>
+                            <font size="6" color="red">R$ 1.199,99
+                    
+                        </font>
+                    </td>
+                    <td>
+                        Trompete Harmonics BB <br>HMT-500L Pocket Laqueado<br>
+                            <font size="6" color="red">R$ 2.150,43
+                       
+                        </font>
+                    </td>
+                    <td>
+                       Trompete Bb Htr-300l<br> Laqueado Harmonics <br>
+                            <font size="6" color="red">R$ 1.079,90</font>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    <br>
+    <br>
+    <br>
+    <br>
+        <table>
+            <thead>
+                <tr>
+                    <font size="5" color="red" font="Varela Round">
+                        <p>
+                       Flautas
+                        </p>
+                    </font>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="sopro16.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="sopro17.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="sopro18.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="sopro19.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="sopro20.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                       Flauta Doce Soprano <br>Yamaha Yrs-23g Cor Branco <br>
+                            <font size="6" color="red">R$ 42,34
+                        
+                        </font>
+                    </td>
+                    <td>
+                       Flauta Doce Germânica<br> Spring Cor:Preto<br>
+                            <font size="6" color="red">R$ 21,90
+                      
+                        </font>
+                    </td>
+                    <td>
+                    Flauta Doce Germanica <br>Soprano Dó ABS Dolphin<br>
+                            <font size="6" color="red">R$ 35,00
+                     
+                        </font>
+                    </td>
+                    <td>
+                       Flauta Profissional de Bambu <br>Marrom Sopro Chinês Feito<br> à Mão Tradicional <br>
+                            <font size="6" color="red">R$ 69,00
+                       
+                        </font>
+                    </td>
+                    <td>
+                      Flauta Doce Soprano <br>Cor:Rosa <br>
+                            <font size="6" color="red">R$ 15,90
+                       
+                        </font>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    <br>
+    <br>
+    <br>
+    <br>
+        <table>
+            <thead>
+                <tr>
+                    <font size="5" color="red" font="Varela Round">
+                        <p>
+                      Gaitas
+                        </p>
+                    </font>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="sopro21.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="sopro22.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="sopro23.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="sopro24.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="sopro25.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        Gaita De Boca Dolphin<br> Pocket Blues Dó Harmonica <br>
+                            <font size="6" color="red">R$ 48,91
+                        
+                        </font>
+                    </td>
+                    <td>
+                      Gaita de Fole Escocesa <br>Gallega em Madeira de Fresno <br>com Fole preto Afinação em Dó <br>
+                            <font size="6" color="red">R$ 2.958,90
+                       
+                        </font>
+                    </td>
+                    <td>
+                       Gaita de Boca Hering<br> Junior Prata Jram<br>
+                            <font size="6" color="red">R$ 35,00
+                       
+                        </font>
+                    </td>
+                    <td>
+                        Gaita Fender Blues Deluxe <br>Harmonica Chave de C<br>
+                            <font size="6" color="red">R$ 137,00
+                        
+                        </font>
+                    </td>
+                    <td>
+                        Gaita Henniu Diatônica em Dó<br> com Palhetas Design de Superfície<br> Espelhada 10 furos<br>
+                            <font size="6" color="red">R$ 41,90</font>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </center>
+
+</BODY>
+</HTML>

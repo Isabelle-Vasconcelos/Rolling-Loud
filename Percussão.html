@@ -1,0 +1,508 @@
+<!doctype html>
+<HTML>
+<HEAD>
+<meta charset="UTF-8"/>
+<TITLE>Percussão</TITLE>
+
+<script type="text/Javascript">
+alert("Clique em cima de cada item para realizar sua compra 🚚");
+    function elemento(){
+var no= document.getElementById("texto");
+no.style.color='white'; //alterando a cor do título
+                       }
+        function elemento2(){
+var no= document.getElementById("texto");
+no.style.color='black'; //voltar a cor anterior do título
+                       }
+
+    function Pagina(){
+var no= document.getElementById("site");
+no.style.backgroundColor ='black'; //alterando a cor o fundo da página
+                    }
+                    function Pagina2(){
+var no= document.getElementById("site");
+no.style.backgroundColor ='white'; //voltar a cor do fundo da página
+                    }
+                    
+                    function Fonte1(){
+var elementoContainer= document.getElementById("site");
+elementoContainer.style.fontFamily= "Times New Roman, serif"; //alterando a cor do título
+                       }
+
+                       function mudarFonte2(){
+var elementoTexto= document.getElementById("site");
+elementoTexto.style.fontFamily= "Arial, sans-serif"; //alterando a cor do título
+                       }
+
+                       function Fonte3(){
+var elementoTexto= document.getElementById("site");
+elementoTexto.style.fontFamily= "Lucida Calligraphy, sans-serif"; <!--Mudar a familia da fonte, porque está errada-->
+                       }
+
+                       function negrito() {
+    var elementoTexto= document.getElementById("site");
+    var textoNormal= window.getComputedStyle(elementoTexto);
+    var fontWeight= textoNormal.getPropertyValue("font-weight");
+
+    elementoTexto.style.fontWeight= fontWeight === "bold" ? "normal" : "bold";           
+                          }
+
+     function normal() {
+    var elementoTexto= document.getElementById("site");
+    var textoNormal= window.getComputedStyle(elementoTexto);
+    var fontWeight= textoNormal.getPropertyValue("font-weight"); 
+
+    elementoTexto.style.fontWeight= "normal";
+                          }
+
+                          function italico() {
+    var elementoTexto = document.getElementById("site");
+    var textoNormal = window.getComputedStyle(elementoTexto);
+    var fontWeight = textoNormal.getPropertyValue("font-weight"); 
+
+    elementoTexto.style.fontStyle = "italic";
+                          }
+
+                          function Plain() {
+    var elementoTexto = document.getElementById("site");
+    var textoNormal = window.getComputedStyle(elementoTexto);
+    var fontWeight = textoNormal.getPropertyValue("font-weight"); 
+
+    elementoTexto.style.fontStyle = "normal";
+                          }
+
+    </script>
+</HEAD>
+
+<BODY id='site'>
+   
+    <table width="80%" align="center" border="0" bordercolor="" bgcolor="white" cellspacing="0" cellspadding="0">
+        <tr bgcolor="white">
+
+            <td align="center">
+                <input type="button" value="Texto Branco" onclick="elemento ();">
+                <br><br>
+                <input type="button" value="Texto Preto" onclick="elemento2 ();">
+            </td>
+
+            <td align="center">
+                <input type="button" value="Modo Escuro" onclick="Pagina ();">
+                <br><br>
+                <input type="button" value="Modo Claro" onclick="Pagina2 ();">
+            </td>
+
+            <td align="center">
+                <input type="button" value="Fonte Times New Roman" onclick="Fonte1 ();">
+                <br><br>
+                <input type="button" value="Fonte Arial" onclick="mudarFonte2 ();">  
+                <br><br>
+                <input type="button" value="Fonte Lucida Calligraphy" onclick="Fonte3 ();"> 
+            </td>
+
+            <td align="center">
+                <input type="button" value="Estilo Negrito" onclick="negrito ();">
+                <br><br>
+                <input type="button" value="Texto Normal" onclick="normal ();">
+                <br><br>
+                <input type="button" value="Estilo Itálico" onclick="italico();">
+                <br><br>
+                <input type="button" value="Tirar Itálico" onclick="Plain();">
+            </td>
+        </tr>
+
+    </table>
+
+    <CENTER>
+
+        <IMG SRC="logo.png" ALIGN="CENTER" alt="Image" HEIGHT="200" WIDTH="200" hspace="20">
+        <IMG SRC="barra.png" ALIGN="RIGHT" alt="Image" HEIGHT="80" WIDTH="80" hspace="20">
+        <IMG SRC="barra.png" ALIGN="LEFT" alt="Image" HEIGHT="80" WIDTH="80" hspace="20">
+
+    </CENTER>
+    
+    <HR align="LEFT" width="100%" size="5" color="grey" noshade </HR> 
+    <HR align="RIGHT" width="100%" size="5" color="grey" noshade </HR> 
+    <HR align="CENTER" width="100%" size="5" color="grey" noshade </HR> 
+    <HR align="CENTER" width="100%" size="5" color="grey" noshade </HR> 
+    <HR align="CENTER" width="100%" size="5" color="grey" noshade </HR> 
+    <HR align="CENTER" width="100%" size="5" color="grey" noshade </HR>        
+    
+    
+    
+    
+    <center>
+        <IMG SRC="Instrumentos de Percussão.gif" ALIGN="LEFT" alt="Image" HEIGHT="850" WIDTH="1850" hspace="20">
+    </center>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <center id='texto'>
+        <table>
+            <thead>
+
+                <tr>
+
+                    <font size="5" color="red" font="Varela Round">
+                        <p>
+                        Baterias
+                        </p>
+                    </font>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="per1.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="per2.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="per3.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="per4.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="per5.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+
+                    <td>
+                        Bateria D One Rocket <br>Dr20 Wss Branco Fosco<br> Bumbo 20<br>
+                            <font size="6" color="red">R$ 3.499
+                        
+                        </font>
+                    </td>
+                    <td>
+                       Shell Pack Bateria <br>Acústica Vogga Vpd922 Wr <br>Bumbo 22 Preto<br>
+                            <font size="6" color="red">R$ 1.870
+                        
+                        </font>
+                    </td>
+                    <td>
+                        Bateria Completa Yamaha <br>Rydeen Studio Pratos Paiste <br>101 Hot Red<br>
+                            <font size="6" color="red">R$ 5.235,00
+                     
+                        </font>
+                    </td>
+                    <td>
+                        Bateria Eletronica Dobravel <br>Preto Spring 9 Pads<br>
+                            <font size="6" color="red">R$ 450,00
+                     
+                        </font>
+                    </td>
+                    <td>
+                       Bateria Tagima Nagano<br> Garage Rock Bumbo 22 <br>Natural Clear<br>
+                            <font size="6" color="red">R$ 4.141,90</font>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    <br>
+    <br>
+    <br>
+    <br>
+        <table>
+            <thead>
+                <tr>
+                    <font size="5" color="red" font="Varela Round">
+                        <p>
+                        Pandeiros
+                        </p>
+                    </font>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="per6.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="per7.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="per8.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="per9.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="per10.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+
+                    <td>
+                        Pandeiro Profissional Phx<br>Preto 10 Pele Preta <br>Music Inst<br>
+                            <font size="6" color="red">R$ 69,90
+                     
+                        </font>
+                    </td>
+                    <td>
+                       Pandeiro Luen 10 Pele <br>Leitosa Batuka Abs Platinelas <br>Inox Cor Preto<br>
+                            <font size="6" color="red">R$ 53,10
+                       
+                        </font>
+                    </td>
+                    <td>
+                        Pandeiro Torelli Profissional<br> Tp300 10 Pele Couro Aro<br> Abs<br>
+                            <font size="6" color="red">R$ 52,00
+                      
+                        </font>
+                    </td>
+                    <td>
+                       Pandeiro TORELLI 10<br> Pele Animal TP300PR Preto<br>
+                            <font size="6" color="red">R$ 129,87
+                    
+                        </font>
+                    </td>
+                    <td>
+                        Pandeiro Luen 10 Pele <br>Leitosa Batuka Abs Platinelas <br>Inox Cor Amarelo<br>
+                            <font size="6" color="red">R$ 53,00
+                        
+                        </font>
+                    </td>
+
+
+                </tr>
+
+
+            </tbody>
+
+        </table>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+        <table>
+            <thead>
+
+                <tr>
+
+                    <font size="5" color="red" font="Varela Round">
+                        <p>
+                       Tambor
+                        </p>
+                    </font>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="per11.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="per12.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="per13.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="per14.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="per15.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+
+                    <td>
+                        Cuíca Artesanal Pele Couro<br> Tambor Corda Instrumento<br> Música<br>
+                            <font size="6" color="red">R$ 269,90
+                      
+                        </font>
+                    </td>
+                    <td>
+                       Tambor Muslady com Alça<br> de Ombro Feito á Madeira<br>
+                            <font size="6" color="red">R$ 301,10
+                       
+                        </font>
+                    </td>
+                    <td>
+                        Conjunto de 3 Tambores <br>Feito á Madeira <br>
+                            <font size="6" color="red">R$ 252,00
+                        
+                        </font>
+                    </td>
+                    <td>
+                       Tambores Africanos Profissional<br>de Madeira de Mogno Pele de<br> Cabra<br>
+                            <font size="6" color="red">R$ 412,87
+                        
+                        </font>
+                    </td>
+                    <td>
+                        Tambor Bongo de Madeira Durável<br>Instrumento de Percussão <br> Tradicional Africano<br>
+                            <font size="6" color="red">R$ 201,30
+                        
+                        </font>
+                    </td>
+
+
+                </tr>
+
+
+            </tbody>
+
+        </table>
+ 
+
+
+    <center>
+        <IMG SRC="Promoção  1.gif" ALIGN="LEFT" alt="Image" HEIGHT="850" WIDTH="1850" hspace="20">
+    </center>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+   
+        <table>
+            <thead>
+
+                <tr>
+
+                    <font size="5" color="red" font="Varela Round">
+                        <p>
+                       Tambores & Baquetas
+                        </p>
+                    </font>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="per16.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="per17.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="per18.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="per19.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="per20.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+
+                    <td>
+                        Tambores Com Baquetas <br>
+                            <font size="6" color="red">R$ 29,90
+                        
+                        </font>
+                    </td>
+                    <td>
+                       Tambor Profissional<br> Cor:Preto C/ Baquetas<br>
+                            <font size="6" color="red">R$ 31,10
+                    
+                        </font>
+                    </td>
+                    <td>
+                  Tambor Duravél Feito de<br> Metal Inox Profissional <br>
+                            <font size="6" color="red">R$ 52,00
+                        
+                        </font>
+                    </td>
+                    <td>
+                       Tambor á Madeira Resistênte <br>Cor:Amarelo <br>
+                            <font size="6" color="red">R$ 412,87
+                   
+                        </font>
+                    </td>
+                    <td>
+                     Tambor Instrumento de Percussão<br> Cor:Vermelho C/ Baquetas<br>
+                            <font size="6" color="red">R$ 72,30
+                      
+                        </font>
+                    </td>
+
+
+                </tr>
+
+
+            </tbody>
+
+        </table>
+   
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+        <table>
+            <thead>
+
+                <tr>
+
+                    <font size="5" color="red" font="Varela Round">
+                        <p>
+                      Chocalhos
+                        </p>
+                    </font>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="per21.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="per22.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="per23.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="per24.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="per25.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+
+                    <td>
+                        Chocalho de Madeira <br>Instrumento de Percussão <br>
+                            <font size="6" color="red">R$ 19,90
+                     
+                        </font>
+                    </td>
+                    <td>
+                        Chocalho Rumba Shakers <br>de Areia Martelo Instrumento <br>de Percussão<br>
+                            <font size="6" color="red">R$ 23,10
+                       
+                        </font>
+                    </td>
+                    <td>
+                       Chocalho Ganzá De Madeira<br> Umbauba 20cm Colorida  <br>
+                            <font size="6" color="red">R$ 17,00
+                     
+                        </font>
+                    </td>
+                    <td>
+                       Chocalho de Árvore de Coco <br>Martelo de Areia Shaker<br> Chocalho de mão <br>
+                            <font size="6" color="red">R$ 23,32
+                     
+                        </font>
+                    </td>
+                    <td>
+                      Chocalho e Mini Tambor <br>Conjunto de Instrumentos de <br>Percussão <br>
+                            <font size="6" color="red">R$ 24,30
+                   
+                        </font>
+                    </td>
+                </tr>
+
+            </tbody>
+
+        </table>
+    </center>
+
+</BODY>
+</HTML>
