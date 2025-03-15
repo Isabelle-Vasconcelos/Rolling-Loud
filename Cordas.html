@@ -1,0 +1,517 @@
+<!doctype html>
+<HTML>
+
+<HEAD>
+    <meta charset="UTF-8" />
+    <TITLE>Cordas</TITLE>
+
+<script type="text/Javascript">
+
+alert("Clique em cima de cada item para realizar sua compra 🚚");
+
+        function elemento(){
+    var no= document.getElementById("texto");
+    no.style.color='white'; //alterando a cor do título
+                           }
+            function elemento2(){
+    var no= document.getElementById("texto");
+    no.style.color='black'; //voltar a cor anterior do título
+                           }
+
+        function Pagina(){
+    var no= document.getElementById("site");
+    no.style.backgroundColor ='black'; //alterando a cor o fundo da página
+                        }
+                        function Pagina2(){
+    var no= document.getElementById("site");
+    no.style.backgroundColor ='white'; //voltar a cor do fundo da página
+                        }
+                        
+                        function Fonte1(){
+    var elementoContainer= document.getElementById("site");
+    elementoContainer.style.fontFamily= "Times New Roman, serif"; //alterando a cor do título
+                           }
+    
+                           function mudarFonte2(){
+    var elementoTexto= document.getElementById("site");
+    elementoTexto.style.fontFamily= "Arial, sans-serif"; //alterando a cor do título
+                           }
+    
+                           function Fonte3(){
+    var elementoTexto= document.getElementById("site");
+    elementoTexto.style.fontFamily= "Lucida Calligraphy, sans-serif";
+                           }
+
+                           function negrito() {
+    var elementoTexto= document.getElementById("site");
+    var textoNormal= window.getComputedStyle(elementoTexto);
+    var fontWeight= textoNormal.getPropertyValue("font-weight");
+
+    elementoTexto.style.fontWeight= fontWeight === "bold" ? "normal" : "bold";           
+                          }
+
+     function normal() {
+    var elementoTexto= document.getElementById("site");
+    var textoNormal= window.getComputedStyle(elementoTexto);
+    var fontWeight= textoNormal.getPropertyValue("font-weight"); 
+
+    elementoTexto.style.fontWeight= "normal";
+                          }
+
+                          function italico() {
+    var elementoTexto = document.getElementById("site");
+    var textoNormal = window.getComputedStyle(elementoTexto);
+    var fontWeight = textoNormal.getPropertyValue("font-weight"); 
+
+    elementoTexto.style.fontStyle = "italic";
+                          }
+
+                          function Plain() {
+    var elementoTexto = document.getElementById("site");
+    var textoNormal = window.getComputedStyle(elementoTexto);
+    var fontWeight = textoNormal.getPropertyValue("font-weight"); 
+
+    elementoTexto.style.fontStyle = "normal";
+                          }
+
+        </script>
+    </HEAD>
+    
+    <BODY id='site'>
+       
+        <table width="80%" align="center" border="0" bordercolor="" bgcolor="white" cellspacing="0" cellspadding="0">
+            <tr bgcolor="white">
+    
+                <td align="center">
+                    <input type="button" value="Texto Branco" onclick="elemento ();">
+                    <br><br>
+                    <input type="button" value="Texto Preto" onclick="elemento2 ();">
+                </td>
+    
+                <td align="center">
+                    <input type="button" value="Modo Escuro" onclick="Pagina ();">
+                    <br><br>
+                    <input type="button" value="Modo Claro" onclick="Pagina2 ();">
+                </td>
+    
+                <td align="center">
+                    <input type="button" value="Fonte Times New Roman" onclick="Fonte1 ();">
+                    <br><br>
+                    <input type="button" value="Fonte Arial" onclick="mudarFonte2 ();">  
+                    <br><br>
+                    <input type="button" value="Fonte Lucida Calligraphy" onclick="Fonte3 ();"> 
+                </td>
+
+                <td align="center">
+                    <input type="button" value="Estilo Negrito" onclick="negrito ();">
+                    <br><br>
+                    <input type="button" value="Texto Normal" onclick="normal ();">
+                    <br><br>
+                    <input type="button" value="Estilo Itálico" onclick="italico();">
+                    <br><br>
+                <input type="button" value="Tirar Itálico" onclick="Plain();">
+                    
+                </td>
+            </tr>
+    
+        </table>
+
+    <CENTER>
+
+        <IMG SRC="logo.png" ALIGN="CENTER" alt="Image" HEIGHT="200" WIDTH="200" hspace="20">
+        <IMG SRC="barra.png" ALIGN="RIGHT" alt="Image" HEIGHT="80" WIDTH="80" hspace="20">
+        <IMG SRC="barra.png" ALIGN="LEFT" alt="Image" HEIGHT="80" WIDTH="80" hspace="20">
+
+    </CENTER>
+
+    <HR align="LEFT" width="100%" size="5" color="grey" noshade </HR>
+    <HR align="RIGHT" width="100%" size="5" color="grey" noshade </HR>
+    <HR align="CENTER" width="100%" size="5" color="grey" noshade </HR>
+    <HR align="CENTER" width="100%" size="5" color="grey" noshade </HR>
+    <HR align="CENTER" width="100%" size="5" color="grey" noshade </HR>
+    <HR align="CENTER" width="100%" size="5" color="grey" noshade </HR>
+
+    <center>
+        <IMG SRC="Instrumentos de Corda.gif" ALIGN="LEFT" alt="Image" HEIGHT="850" WIDTH="1850" hspace="20">
+    </center>
+
+    <br>
+    <br>
+    <br>
+
+    <center id='texto'>
+        <table>
+            <thead>
+
+                <tr>
+
+                    <font size="5" color="red" font="Varela Round">
+                        <p>
+                        Guitarras
+                        </p>
+                    </font>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="corda1.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="corda2.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="corda3.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="corda4.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="corda5.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+
+                    <td>
+                        Guitarra elétrica Olympic<br>white MG-30 Memphi<br>
+                            <font size="6" color="red">R$ 740,95
+                        
+                        </font>
+                    </td>
+                    <td>
+                        Guitarra Fender 011 3090 <br> Am Professional Jazzmaster<br> Rw - 705 - Olympic White <br>
+                            <font size="6" color="red">R$ 20.041,33
+                        
+                        </font>
+                    </td>
+                    <td>
+                        Guitarra Michael Les Paul<br> Ouro Gold GM730n Gd<br>
+                            <font size="6" color="red">R$ 1.318,00
+                      
+                        </font>
+                    </td>
+                    <td>
+                         Guitarra Strinberg STS100 <br>BKS Fosco<br>
+                            <font size="6" color="red">R$ 15.209,00
+                     
+                        </font>
+                    </td>
+                    <td>
+                     Guitarra Elétrica Queen's 6 <br>Cordas Stratocaster Cor<br> Amarelo<br>
+                            <font size="6" color="red">R$ 699,00
+                   
+                        </font>
+                    </td>
+
+
+                </tr>
+
+
+            </tbody>
+
+        </table>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+        <table>
+            <thead>
+
+                <tr>
+
+                    <font size="5" color="red" font="Varela Round">
+                        <p>
+                     Violão
+                        </p>
+                    </font>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="corda6.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="corda7.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="corda8.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="corda9.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="corda10.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+
+                    <td>
+                        Violão preto 6 cordas de <br>aço D137516 Conthey<br>
+                            <font size="6" color="red">R$ 206,99
+                        
+                        </font>
+                    </td>
+                    <td>
+                        Violão Acústico Benoá 6 <br>Cordas de Aço Natural<br> Cor Roxo <br>
+                            <font size="6" color="red">R$ 401,99
+                       
+                        </font>
+                    </td>
+                    <td>
+                        Violão Acústico Tagima <br>AC-39 NS Memphis Natural<br> Nylon<br>
+                            <font size="6" color="red">R$ 451,79
+                      
+                        </font>
+                    </td>
+                    <td>
+                       VIOLÃO DI GIORGIO IRON <br>RED AÇO, <br>ELETROACÚSTICO<br>
+                            <font size="6" color="red">R$ 503,80
+                        
+                        </font>
+                    </td>
+                    <td>
+                     Violão Artístico Elétrico<br> Aço SA-25C Wh Branco <br>Strinberg<br>
+                            <font size="6" color="red">R$ 949,00
+                       
+                        </font>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+        <table>
+            <thead>
+
+                <tr>
+
+                    <font size="5" color="red" font="Varela Round">
+                        <p>
+                        Violinos
+                        </p>
+                    </font>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="corda11.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="corda12.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="corda13.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="corda14.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="corda15.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+
+                    <td>
+                        Violino Vivace Mozart Mo44 <br>4/4 Com Case Luxo<br>
+                            <font size="6" color="red">R$ 300,99
+                      
+                        </font>
+                    </td>
+                    <td>
+                        Violino Profissional <br>Dominante 1/2 3/4 4/4 <br>Estojo Acessórios<br>
+                            <font size="6" color="red">R$ 731,99
+                      
+                        </font>
+                    </td>
+                    <td>
+                        Kit Violino Dominante C/ <br>Estante + Espaleira + Afinador<br>
+                            <font size="6" color="red">R$ 2,300.90
+                      
+                        </font>
+                    </td>
+                    <td>
+                       Violino Tamanho 4/4 Arco <br>Madeira com Breu Cavalete<br> Estojo Luxo <br>
+                            <font size="6" color="red">R$ 1.503,80
+                       
+                        </font>
+                    </td>
+                    <td>
+                        Violino Tarttan Série 100 <br>1/2 Branco<br>
+                            <font size="6" color="red">R$ 649,00
+                     
+                        </font>
+                    </td>
+
+
+                </tr>
+
+
+            </tbody>
+
+        </table>
+  
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+        <table>
+            <thead>
+
+                <tr>
+
+                    <font size="5" color="red" font="Varela Round">
+                        <p>
+                        Harpas
+                        </p>
+                    </font>
+                    <td><a href="Compra realizada.html">
+                         <IMG SRC="corda16.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="corda17.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="corda18.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="corda19.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="corda20.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+
+                    <td>
+                        Harpa águia profissional <br>artesanal de madeira<br> 38 cordas <br>
+                            <font size="6" color="red">R$ 3.414,00
+                       
+                        </font>
+                    </td>
+                    <td>
+                      Harpa Branca Profissional <br>39 Cordas <br>
+                            <font size="6" color="red">R$ 4.607,99
+                        
+                        </font>
+                    </td>
+                    <td>
+                       Harpa Céltica 34 Cordas<br>
+                            <font size="6" color="red">R$ 5.322.90
+                     
+                        </font>
+                    </td>
+                    <td>
+                      Pequena Harpa Mogno para <br>Iniciante Padrão Original <br>Feito De Madeira<br>
+                            <font size="6" color="red">R$ 192,00
+                    
+                        </font>
+                    </td>
+                    <td>
+                       Blanche Eagleharp 38 <br>Cordas Instrumento de Harpa <br>Profissional Artesanal <br>
+                            <font size="6" color="red">R$ 24.649,00
+                     
+                        </font>
+                    </td>
+
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+        <table>
+            <thead>
+
+                <tr>
+
+                    <font size="5" color="red" font="Varela Round">
+                        <p>
+                        Pianos
+                        </p>
+                    </font>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="corda21.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="corda22.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="corda23.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="corda24.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                        <IMG SRC="corda25.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                            vspace="10" hspace="20"></a></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+
+                    <td>
+                      Piano Digital Com<br> Música Teclado MIDI 88 <br>Teclas<br>
+                            <font size="6" color="red">R$ 569,00
+                        
+                        </font>
+                    </td>
+                    <td>
+                       Piano Digital de Cauda<br> Clavinova Yamaha CLP<br> 765 GP<br>
+                            <font size="6" color="red">R$ 40.607,99
+                        
+                        </font>
+                    </td>
+                    <td>
+                   Piano Digital Casio <br>Celviano Ap470 Marrom<br>
+                            <font size="6" color="red">R$ 8.120.90
+                 
+                        </font>
+                    </td>
+                    <td>
+                        Piano Digital Tokai<br>TP200C Cauda Preto Fosco<br> Madeirado<br>
+                            <font size="6" color="red">R$ 6.192,00
+                     
+                        </font>
+                    </td>
+                    <td>
+                        Piano Digital de Cauda <br>Clavinova Yamaha CLP 765 <br>GP WH Branco<br>
+                            <font size="6" color="red">R$ 54.649,00
+                        
+                        </font>
+                    </td>
+
+
+                </tr>
+
+
+            </tbody>
+
+        </table>
+    </center>
+</BODY>
+</HTML>
