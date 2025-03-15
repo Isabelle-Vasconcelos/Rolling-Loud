@@ -1,0 +1,485 @@
+<!doctype html>
+<HTML>
+
+<HEAD>
+    <meta charset="UTF-8" />
+    <link rel="stylessheet" type="text/css" href="estilo.css">
+    <TITLE>Página Inicial</TITLE>
+
+    <script type="text/Javascript">
+     alert("Clique em cima de cada item para realizar sua compra 🚚");
+
+    function elemento(){
+var no= document.getElementById("texto");
+no.style.color='white'; //alterando a cor do título
+                       }
+        function elemento2(){
+var no= document.getElementById("texto");
+no.style.color='black'; //voltar a cor anterior do título
+                       }
+
+    function Pagina(){
+var no= document.getElementById("site");
+no.style.backgroundColor ='black'; //alterando a cor o fundo da página
+                    }
+                    function Pagina2(){
+var no= document.getElementById("site");
+no.style.backgroundColor ='white'; //voltar a cor do fundo da página
+                    }
+                    
+                    function Fonte1(){
+var elementoContainer= document.getElementById("site");
+elementoContainer.style.fontFamily= "Times New Roman, serif"; //alterando a cor do título
+                       }
+
+                       function mudarFonte2(){
+var elementoTexto= document.getElementById("site");
+elementoTexto.style.fontFamily= "Arial, sans-serif"; //alterando a cor do título
+                       }
+
+                       function Fonte3(){
+var elementoTexto= document.getElementById("site");
+elementoTexto.style.fontFamily= "Lucida Calligraphy, sans-serif";
+                       }
+ 
+     function negrito() {
+    var elementoTexto= document.getElementById("site");
+    var textoNormal= window.getComputedStyle(elementoTexto);
+    var fontWeight= textoNormal.getPropertyValue("font-weight");
+
+    elementoTexto.style.fontWeight= fontWeight === "bold" ? "normal" : "bold";           
+                          }
+
+     function normal() {
+    var elementoTexto= document.getElementById("site");
+    var textoNormal= window.getComputedStyle(elementoTexto);
+    var fontWeight= textoNormal.getPropertyValue("font-weight"); 
+
+    elementoTexto.style.fontWeight= "normal";
+                          }
+
+                          function italico() {
+    var elementoTexto = document.getElementById("site");
+    var textoNormal = window.getComputedStyle(elementoTexto);
+    var fontWeight = textoNormal.getPropertyValue("font-weight"); 
+
+    elementoTexto.style.fontStyle = "italic";
+                          }
+
+                          function Plain() {
+    var elementoTexto = document.getElementById("site");
+    var textoNormal = window.getComputedStyle(elementoTexto);
+    var fontWeight = textoNormal.getPropertyValue("font-weight"); 
+
+    elementoTexto.style.fontStyle = "normal";
+                          }
+
+    </script>
+</HEAD>
+
+<BODY id='site'>
+
+    <table width="80%" align="center" border="0" bordercolor="" bgcolor="white" cellspacing="0" cellspadding="0">
+        <tr bgcolor="white">
+
+            <td align="center">
+                <input type="button" value="Texto Branco" onclick="elemento ();">
+                <br><br>
+                <input type="button" value="Texto Preto" onclick="elemento2 ();">
+            </td>
+
+            <td align="center">
+                <input type="button" value="Modo Escuro" onclick="Pagina ();">
+                <br><br>
+                <input type="button" value="Modo Claro" onclick="Pagina2 ();">
+            </td>
+
+            <td align="center">
+                <input type="button" value="Fonte Times New Roman" onclick="Fonte1 ();">
+                <br><br>
+                <input type="button" value="Fonte Arial" onclick="mudarFonte2 ();">
+                <br><br>
+                <input type="button" value="Fonte Lucida Calligraphy" onclick="Fonte3 ();">
+            </td>
+
+            <td align="center">
+                <input type="button" value="Estilo Negrito" onclick="negrito ();">
+                <br><br>
+                <input type="button" value="Texto Normal" onclick="normal ();">
+                <br><br>
+                <input type="button" value="Estilo Itálico" onclick="italico();">
+                <br><br>
+                <input type="button" value="Tirar Itálico" onclick="Plain();">
+            </td>
+        </tr>
+    </table>
+
+    <CENTER>
+
+        <IMG SRC="logo.png" ALIGN="CENTER" alt="Image" HEIGHT="250" WIDTH="250" hspace="20">
+        <IMG SRC="barra.png" ALIGN="RIGHT" alt="Image" HEIGHT="80" WIDTH="80" hspace="20">
+        <IMG SRC="barra.png" ALIGN="LEFT" alt="Image" HEIGHT="80" WIDTH="80" hspace="20">
+
+    </CENTER>
+
+    <HR align="LEFT" width="100%" size="5" color="grey" noshade </HR>
+    <HR align="RIGHT" width="100%" size="5" color="grey" noshade </HR>
+    <HR align="CENTER" width="100%" size="5" color="grey" noshade </HR>
+    <HR align="CENTER" width="100%" size="5" color="grey" noshade </HR>
+    <HR align="CENTER" width="100%" size="5" color="grey" noshade </HR>
+    <HR align="CENTER" width="100%" size="5" color="grey" noshade </HR>
+
+    <br><br>
+    <center>
+        <IMG SRC="Rolling  Loud INDEX.gif" ALIGN="LEFT" alt="Image" HEIGHT="850" WIDTH="1850" hspace="20">
+    </center>
+
+    <center id="texto">
+        <table>
+            <thead>
+                <tr>
+                    <font size="5" color="red" font="Varela Round">
+                        <p>
+                            Você Pode Gostar
+                        </p>
+                    </font>
+
+                    <td><a href="Compra realizada.html">
+                            <IMG SRC="equi1.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                                vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                            <IMG SRC="equi2.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                                vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                            <IMG SRC="equi3.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                                vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                            <IMG SRC="equi4.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                                vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                            <IMG SRC="equi5.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                                vspace="10" hspace="20"></a></td>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        Caixa De Som JBL <br> Portátil Bluetooth<br>
+                        <font size="6" color="red">R$ 269,90
+
+                        </font>
+                    </td>
+                    <td>
+                        Caixa de Som Portátil <br>com Bluetooth & Luzes <br>LED 160W RMS<br>
+                        <font size="6" color="red">R$ 1.841,00
+
+                        </font>
+                    </td>
+                    <td>
+                        Caixa De Som Vitrola <br>Vinil Com Recorder <BR>Usb/aux 10w Rms Mala<br>
+                        <font size="6" color="red">R$ 552,00
+
+                        </font>
+                    </td>
+                    <td>
+                        Rádio Vintaje Cor:Prata <br>C/ Bluetooth<br>
+                        <font size="6" color="red">R$ 212,87
+
+                        </font>
+                    </td>
+                    <td>
+                        Controladora Hercules<br> DJControl Inpulse 200<br> 4 Pads, Preto <br>
+                        <font size="6" color="red">R$ 649,99
+
+                        </font>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <table>
+            <thead>
+                <tr>
+                    <font size="5" color="red" font="Varela Round">
+                        <p>
+                            Equipamentos de Som & Aùdio
+                        </p>
+                    </font>
+
+                    <td><a href="Compra realizada.html">
+                            <IMG SRC="equi6.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                                vspace="10" hspace="30"></a></td>
+                    <br>
+                    <td><a href="Compra realizada.html">
+                            <IMG SRC="equi7.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                                vspace="10" hspace="30"></a></td>
+                    <td><a href="Compra realizada.html">
+                            <IMG SRC="equi8.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                                vspace="10" hspace="30"></a></td>
+                    <td><a href="Compra realizada.html">
+                            <IMG SRC="equi9.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                                vspace="10" hspace="30"></a></td>
+                    <td><a href="Compra realizada.html">
+                            <IMG SRC="equi10.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                                vspace="10" hspace="30"></a></td>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        Microfone Condensador Para<br> Estúdio Lotus Bm800<br>
+                        <font size="6" color="red">R$ 100,90
+
+                        </font>
+                    </td>
+                    <td>
+                        Microfone Condensador Com <br>Braço Articulado e Pop Filter <br>para Transmissão Ao
+                        Vivo,<br> Podcast, Gravação de Audio<br>
+                        <font size="6" color="red">R$ 221,10
+
+                        </font>
+                    </td>
+                    <td>
+                        Kit Home Studio Armer <br>Capitol com Mic A68 <br>+ Fone SH450<br>
+                        <font size="6" color="red">R$ 352,99
+
+                        </font>
+                    </td>
+                    <td>
+                        Microfone Condensador para<br> PC com Tripé e Cabo P2<br>
+                        <font size="6" color="red">R$ 199,87
+
+                        </font>
+                    </td>
+                    <td>
+                        Pedestal Suporte Para <br>Microfone<br>
+                        <font size="6" color="red">R$ 28,99
+
+                        </font>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <table>
+            <thead>
+
+                <tr>
+
+                    <font size="5" color="red" font="Varela Round">
+                        <p>
+                            Amplificador de Guitarra
+                        </p>
+                    </font>
+
+                    <td><a href="Compra realizada.html">
+                            <IMG SRC="equi11.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                                vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                            <IMG SRC="equi12.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                                vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                            <IMG SRC="equi13.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                                vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                            <IMG SRC="equi14.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                                vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                            <IMG SRC="equi15.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                                vspace="10" hspace="20"></a></td>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        Amplificador Marshall Micro<br> Amp MS-2 Transistor Para <br>Guitarra de 1W cor preto 9V<br>
+                        <font size="6" color="red">R$ 397,90
+
+                        </font>
+                    </td>
+                    <td>
+                        Amplificador Marshall MG <br>Gold MG30GFX Transistor <br>para Guitarra de 30W Cor<br>
+                        Preto/Ouro 127V<br>
+                        <font size="6" color="red">R$ 998,10
+
+                        </font>
+                    </td>
+                    <td>
+                        Cubo Amplificador Meteoro <br>Space Júnior 35gs 25w<br> P/ Guitarra<br>
+                        <font size="6" color="red">R$ 552,99
+
+                        </font>
+                    </td>
+                    <td>
+                        Amplificador Fender Frontman <br>Series 10G Transistor para<br> Guitarra de 10W cor preto
+                        <br>prata 120V<br>
+                        <font size="6" color="red">R$ 609,87
+
+                        </font>
+                    </td>
+                    <td>
+                        Amplificador Marshall Mg-10 <br>Combo Guitarra<br>
+                        <font size="6" color="red">R$ 280,99
+
+                        </font>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <table>
+            <thead>
+                <tr>
+                    <font size="5" color="red" font="Varela Round">
+                        <p>
+                            Bolsa Para Violão
+                        </p>
+                    </font>
+
+                    <td><a href="Compra realizada.html">
+                            <IMG SRC="equi16.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                                vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                            <IMG SRC="equi17.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                                vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                            <IMG SRC="equi18.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                                vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                            <IMG SRC="equi19.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                                vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                            <IMG SRC="equi20.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                                vspace="10" hspace="20"></a></td>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        Bolsa Para Carregar Violão <br>Cor: Preta À Prova de Agua<br> + Kit De Suporte<br>
+                        <font size="6" color="red">R$ 60,90
+
+                        </font>
+                    </td>
+                    <td>
+                        Bolsa Para Carregar Violão <br>Cor: Rosa Estampa de <br> Gatinhos Fofos<br>
+                        <font size="6" color="red">R$ 68,10
+
+                        </font>
+                    </td>
+                    <td>
+                        Bolsa Para Carregar Violão <br> Impermeavél & Minimalista<br> Cor: Preta <br><br>
+                        <font size="6" color="red">R$ 75,99
+
+                        </font>
+                    </td>
+                    <td>
+                        Bolsa Para Carregar Violão <br> Cores Vibrantes e de Alta <br>Qualidade <br>
+                        <font size="6" color="red">R$ 80,87
+
+                        </font>
+                    </td>
+                    <td>
+                        Bolsa Para Carregar Violão<br> Feita de Couro De Boi <br>Original<br>
+                        <font size="6" color="red">R$ 280,99
+
+                        </font>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <table>
+            <thead>
+                <tr>
+                    <font size="5" color="red" font="Varela Round">
+                        <p>
+                            Baquetas Para Bateria
+                        </p>
+                    </font>
+
+                    <td><a href="Compra realizada.html">
+                            <IMG SRC="equi21.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                                vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                            <IMG SRC="equi22.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                                vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                            <IMG SRC="equi23.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                                vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                            <IMG SRC="equi24.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                                vspace="10" hspace="20"></a></td>
+                    <td><a href="Compra realizada.html">
+                            <IMG SRC="equi25.jpg" alt="image description" ALIGN="midlle" HEIGHT="290" WIDTH="290"
+                                vspace="10" hspace="20"></a></td>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        Baqueta Neon que Brilha<br> no Escuro<br>
+                        <font size="6" color="red">R$ 20,90
+
+                        </font>
+                    </td>
+                    <td>
+                        Baqueta 7A Nirvana<br> Liverpool Madeira 2 Pares<br>
+                        <font size="6" color="red">R$ 23,10
+
+                        </font>
+                    </td>
+                    <td>
+                        6 Pares Tambor Varas 5a<br> 7a Baquetas Prática <br>Profissional <br>
+                        <font size="6" color="red">R$ 48,99
+
+                        </font>
+                    </td>
+                    <td>
+                        Conjunto De 4 Pares de <br>Baquetas Profissionais<br> Cor:Preta <br>
+                        <font size="6" color="red">R$ 32,87
+
+                        </font>
+                    </td>
+                    <td>
+                        Um Par de Baquetas Feito<br> de Madeira <br>
+                        <font size="6" color="red">R$ 10,99
+
+                        </font>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </center>
+</BODY>
+
+</HTML>
